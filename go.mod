@@ -2,6 +2,8 @@ module github.com/line/finschia
 
 go 1.18
 
+replace github.com/line/lbm-sdk => github.com/0tech/lbm-sdk v1.0.0-init.1.0.20230331085933-aba9d071cf52
+
 require (
 	github.com/golang/mock v1.6.0
 	github.com/gorilla/mux v1.8.0

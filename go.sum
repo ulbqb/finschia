@@ -37,6 +37,8 @@ cloud.google.com/go/storage v1.14.0/go.mod h1:GrKmX003DSIwi9o29oFT7YDnHYwZoctc3f
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 filippo.io/edwards25519 v1.0.0 h1:0wAIcmJUqRdI8IJ/3eGi5/HwXZWPujYXXlkrQogz0Ek=
 filippo.io/edwards25519 v1.0.0/go.mod h1:N1IkdkCkiLB6tki+MYJoSx2JTY9NUlxZE7eHn5EwJns=
+github.com/0tech/lbm-sdk v1.0.0-init.1.0.20230331085933-aba9d071cf52 h1:as78s593kM4CV8xCYS4aIQTBL/kdIbJ4IqlWc9n6+/w=
+github.com/0tech/lbm-sdk v1.0.0-init.1.0.20230331085933-aba9d071cf52/go.mod h1:JrjVsj1KaVtkHbAC8X3gwRIhM8A6vE2k17W6iWbNv3o=
 github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 h1:/vQbFIOMbk2FiG/kXiLl8BRyzTWDw7gX/Hz7Dd5eDMs=
 github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4/go.mod h1:hN7oaIRCjzsZ2dE+yG5k+rsdt3qcwykqK6HVGcKwsw4=
 github.com/99designs/keyring v1.2.1 h1:tYLp1ULvO7i3fI5vE21ReQuj99QFSs7lGm0xWyJo87o=
@@ -418,8 +420,6 @@ github.com/lightstep/lightstep-tracer-common/golang/gogo v0.0.0-20190605223551-b
 github.com/lightstep/lightstep-tracer-go v0.18.1/go.mod h1:jlF1pusYV4pidLvZ+XD0UBX0ZE6WURAspgAczcDHrL4=
 github.com/line/ibc-go/v3 v3.3.2-0.20230210040007-d855e1d87f26 h1:uSnHy48K15ia3ceWxD++hPbaNdcR5TR5IVc3Ss1rGjc=
 github.com/line/ibc-go/v3 v3.3.2-0.20230210040007-d855e1d87f26/go.mod h1:iIUVJLrKDzW/y1nrNQ3XyVrQ3FjNyd6fjgWTBbldAaQ=
-github.com/line/lbm-sdk v0.47.0-rc2 h1:exM5aEvqS8fdlxypxNtjXMsgIHXrUdqJMtnWAScPZ/Y=
-github.com/line/lbm-sdk v0.47.0-rc2/go.mod h1:JrjVsj1KaVtkHbAC8X3gwRIhM8A6vE2k17W6iWbNv3o=
 github.com/line/ostracon v1.0.9 h1:LcDAQKeQyk5Q/As2Qfkqv5Sl8Tl4fUhRSuXg2q4XfAQ=
 github.com/line/ostracon v1.0.9/go.mod h1:WHeAYlDEWvR1oKxw8UVYFa9AJVa3uaGDdDxkrZA5kEY=
 github.com/line/wasmd v0.1.0 h1:Y0M8+1qTQmrJ6gd32Ml+6hr1vVc5dZ8LUHHgpkn7pGs=
