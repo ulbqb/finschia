@@ -2,7 +2,7 @@ module github.com/Finschia/finschia
 
 go 1.18
 
-replace github.com/Finschia/finschia-sdk => github.com/0Tech/finschia-sdk v1.0.0-init.1.0.20230420072731-14a7b3df5696
+replace github.com/Finschia/finschia-sdk => github.com/0Tech/finschia-sdk v1.0.0-init.1.0.20230420085119-a15deeda8bd0
 
 require (
 	github.com/Finschia/finschia-sdk v0.47.0-rc6
