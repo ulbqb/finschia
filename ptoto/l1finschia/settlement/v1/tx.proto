@@ -1,0 +1,13 @@
+syntax = "proto3";
+package l1finschia.settlement.v1;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/finschia/finschia/x/settlement/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
