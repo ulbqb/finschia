@@ -4,27 +4,22 @@ package l1finschia.settlement.v1;
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
-import "settlement/params.proto";
-// this line is used by starport scaffolding # 1
+import "settlement/settlement.proto";
 
 option go_package = "github.com/finschia/finschia/x/settlement/types";
 
 // Query defines the gRPC querier service.
 service Query {
-  // Parameters queries the parameters of the module.
-  rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/ulbqb/testmos/settlement/params";
+  // instead of getStepNumber, isSearching, and getProposedState
+  rpc Challenge(QueryChallengeRequest) returns (QueryChallengeResponse) {
+    option (google.api.http).get = "/l1finschia/settlement/v1/challenge/{challenge_id}";
   }
-  // this line is used by starport scaffolding # 2
 }
 
-// QueryParamsRequest is request type for the Query/Params RPC method.
-message QueryParamsRequest {}
-
-// QueryParamsResponse is response type for the Query/Params RPC method.
-message QueryParamsResponse {
-  // params holds all the parameters of this module.
-  Params params = 1 [(gogoproto.nullable) = false];
+message QueryChallengeRequest {
+  int64 challenge_id = 1;
 }
 
-// this line is used by starport scaffolding # 3
+message QueryChallengeResponse {
+  Challenge challenge = 1;
+}
