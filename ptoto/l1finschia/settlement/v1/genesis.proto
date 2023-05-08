@@ -8,7 +8,7 @@ option go_package = "github.com/finschia/finschia/x/settlement/types";
 // GenesisState defines the settlement module's genesis state.
 message GenesisState {
   // State hashes of the global start.
-  bytes globalStartState = 1;
+  bytes global_start_state = 1;
   // Address of the defender.
   string defender = 2; // ?
 }
